@@ -1,18 +1,25 @@
 {
-  "name": "socket_chat_server",
+  "name": "chat-server",
   "version": "1.0.0",
-  "description": "test",
+  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "vashishtha",
-  "license": "ISC",
   "dependencies": {
-    "http": "0.0.1-security",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
     "socket.io": "^2.3.0"
   },
-  "engines": {
-    "node": "10.x"
-  }
+  "devDependencies": {},
+  "scripts": {
+    "dev":"nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevStack06/Chat-Server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevStack06/Chat-Server/issues"
+  },
+  "homepage": "https://github.com/DevStack06/Chat-Server#readme"
 }
